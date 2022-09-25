@@ -58,8 +58,10 @@ echo "<h1>$task5</h1>";
 
  $task6="1.f";
  echo "<h1>$task6</h1>";
-$maxSkaicius=1000000000;
-echo "<h1>$maxSkaicius</h1>";
+ $maxSkaicius = PHP_FLOAT_MAX;
+ $maxSkaicius1 = PHP_INT_MAX;
+ echo "<h1>$maxSkaicius</h1>";
+ echo "<h1>$maxSkaicius1</h1>";
 echo "<br>";
 
 $task7="1.g";
